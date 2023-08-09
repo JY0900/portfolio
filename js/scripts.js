@@ -45,7 +45,7 @@ jQuery(function ($) {
         $('a[href*=#]').bind("click", function(e){
             var anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top
+                scrollTop: $(anchor.attr('href')).offset().top()
             }, 1000);
             e.preventDefault();
         });
@@ -240,7 +240,7 @@ jQuery(function ($) {
     
         var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
-        var player = $f(iframe);
+        var player = $(iframe);
 
         $('.modal').on('hidden.bs.modal', function () {
         player.api('pause');
