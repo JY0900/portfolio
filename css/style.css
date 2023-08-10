@@ -413,10 +413,12 @@ mark {
 }
 
 @keyframes main_video {
-    0% {display: block;
-    opacity: 1;}
-    100% {display: none;
-    opacity: 0;}
+    0% {
+        display: block;
+    }
+    100% {
+        display: none;
+    }
 }
 
 /* 

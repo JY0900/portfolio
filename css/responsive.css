@@ -449,12 +449,12 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		animation: main_video 0.1s 7s forwards;
+		animation: mob_video 0.1s 7s forwards;
 	}
 
 	@keyframes mob_video {
-		0% {display: block;}
-		100% {display: none;}
+		0% {opacity: 1;}
+		100% {opacity: 0;}
 	}
 
 	.main_video, .main_video_loop {
