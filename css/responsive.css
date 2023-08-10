@@ -449,7 +449,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		animation: main_video 0.1s 5s forwards;
+		animation: main_video 0.1s 7s forwards;
 	}
 
 	@keyframes mob_video {
